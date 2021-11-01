@@ -1,0 +1,23 @@
+.main-dashboard {
+  display: grid;
+  width: 80%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 100px;
+  justify-items: center;
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    border: 1px rgb(54, 54, 54) solid;
+    border-radius: 15px;
+    width: 80%;
+    min-width: 100px;
+    // height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .dashboard {
+    height: 300px;
+  }
+}
